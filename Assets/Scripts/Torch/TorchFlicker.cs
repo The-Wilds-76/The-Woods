@@ -5,8 +5,6 @@ using UnityEngine;
 [RequireComponent(typeof(Light))]
 public class LightFlicker : MonoBehaviour
 {
-    /************************************************************/
-    #region Variables
 
     [Tooltip("maximum possible intensity the light can flicker to")]
     [SerializeField, Min(0)] float maxIntensity = 150f;
@@ -30,17 +28,7 @@ public class LightFlicker : MonoBehaviour
     float flickerFrequency;
     float timeOfLastFlicker;
 
-    #endregion
-    /************************************************************/
-    #region Class Functions
-
     private Light LightSource => GetComponent<Light>();
-
-    #endregion
-    /************************************************************/
-    #region Class Functions
-
-    #region Unity Functions
 
     private void OnValidate()
     {
@@ -67,10 +55,6 @@ public class LightFlicker : MonoBehaviour
         Flicker();
     }
 
-    #endregion
-
-    #region Other Light Functions
-
     private void Flicker()
     {
         LightSource.intensity = Mathf.Lerp(
@@ -84,8 +68,4 @@ public class LightFlicker : MonoBehaviour
     {
         LightSource.intensity = baseIntensity;
     }
-
-    #endregion
-
-    #endregion
 }
