@@ -225,7 +225,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &104488592
 Light:
   m_ObjectHideFlags: 0
@@ -456,8 +456,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17202828454e2064cb1bb2359314a174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxIntensity: 2
-  minIntensity: 0.5
+  maxIntensity: 5
+  minIntensity: 1
   maxFlickerFrequency: 0.6
   minFlickerFrequency: 0
   strength: 1
