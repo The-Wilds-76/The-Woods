@@ -21,4 +21,4 @@ Trees: https://assetstore.unity.com/packages/3d/vegetation/trees/conifers-botd-1
 
 Dirt Material: https://assetstore.unity.com/packages/2d/textures-materials/floors/yughues-free-ground-materials-13001
 
-Skybox Material: https://assetstore.unity.com/packages/2d/textures-materials/sky/10-skyboxes-pack-day-night-32236
+Skybox (NightSky) Material: https://assetstore.unity.com/packages/2d/textures-materials/sky/10-skyboxes-pack-day-night-32236
